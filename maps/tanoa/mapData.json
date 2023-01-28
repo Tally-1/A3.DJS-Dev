@@ -1,0 +1,238 @@
+{
+  "name": "Tanoa",
+  "size": 15,
+  "locations": {
+    "Georgetown": {
+      "pos": [5396.22, 10334.7, 0.0404343],
+      "type": "NameCityCapital"
+    },
+    "Lifou": { "pos": [7080.21, 8004.08, -2.67], "type": "NameCity" },
+    "Tanouka": { "pos": [9014.23, 10214.2, -30.0952], "type": "NameCity" },
+    "Moddergat": { "pos": [9407.35, 4133.13, -6.81528], "type": "NameCity" },
+    "Saint-Julien": { "pos": [5808.6, 11213.3, -2.6792], "type": "NameCity" },
+    "Harcourt": { "pos": [11122.5, 5342.93, -0.0320161], "type": "NameCity" },
+    "Katkoula": { "pos": [5684.68, 3993.67, -0.0422794], "type": "NameCity" },
+    "Balavu": { "pos": [2677.42, 7441.56, 0.00122176], "type": "NameCity" },
+    "OumÃ©rÃ©": { "pos": [12984.3, 7321.96, -0.00348429], "type": "NameCity" },
+    "Nicolet": { "pos": [6164.67, 12864.7, 0.011158], "type": "NameCity" },
+    "Doodstil": { "pos": [12861.9, 4691.1, -2.63918], "type": "NameCity" },
+    "La Rochelle": {
+      "pos": [9549.78, 13673.4, 0.00626279],
+      "type": "NameCity"
+    },
+    "Lijnhaven": { "pos": [11802, 2662.98, 0.073204], "type": "NameCity" },
+    "Blue Pearl industrial port": {
+      "pos": [13523, 12134.8, 0.0916501],
+      "type": "NameCity"
+    },
+    "Tuvanaka": { "pos": [1579.49, 11937.8, -0.11863], "type": "NameCity" },
+    "Lami": { "pos": [7941.7, 7663.32, -7.3052], "type": "NameVillage" },
+    "Lakatoro": { "pos": [9213.6, 8741.29, -220.615], "type": "NameVillage" },
+    "Lobaka": { "pos": [6028.08, 8580.17, -26.4572], "type": "NameVillage" },
+    "Regina": { "pos": [4919.7, 8728.68, -2.99988], "type": "NameVillage" },
+    "La Foa": { "pos": [8825.16, 4778.34, 0.170927], "type": "NameVillage" },
+    "Savaka": { "pos": [7211.97, 4237.91, -1.39777], "type": "NameVillage" },
+    "Buawa": { "pos": [8316.95, 11132.2, -130.3], "type": "NameVillage" },
+    "Kotomo": { "pos": [10974.5, 6232.58, -11.9053], "type": "NameVillage" },
+    "LÃ¶si": { "pos": [10200.8, 4964.28, -16.149], "type": "NameVillage" },
+    "Vagalala": { "pos": [11069.2, 9748.43, -112.357], "type": "NameVillage" },
+    "Imone": { "pos": [10487.6, 10613.7, -163.045], "type": "NameVillage" },
+    "Tobakoro": { "pos": [8741.21, 3556.31, 0.138604], "type": "NameVillage" },
+    "Galili": { "pos": [8114.07, 11957.2, -216.278], "type": "NameVillage" },
+    "Rautake": { "pos": [3403.76, 6836.13, 0], "type": "NameVillage" },
+    "Oua-OuÃ©": { "pos": [5752.39, 12325.8, -26.058], "type": "NameVillage" },
+    "Sosovu": { "pos": [2686.79, 9280.77, -4.71367], "type": "NameVillage" },
+    "Namuvaka": { "pos": [2824.25, 5700.17, -4.71091], "type": "NameVillage" },
+    "Leqa": { "pos": [2363.54, 8236.87, -4.31921], "type": "NameVillage" },
+    "Blerick": { "pos": [10255.9, 2738.07, -9.01873], "type": "NameVillage" },
+    "Belfort": { "pos": [3132.55, 10977.1, -0.0405494], "type": "NameVillage" },
+    "Saioko": { "pos": [12403.5, 4569.93, -32.6168], "type": "NameVillage" },
+    "Petit Nicolet": {
+      "pos": [6813.05, 13439.5, 0.00343358],
+      "type": "NameVillage"
+    },
+    "Saint-Paul": {
+      "pos": [7829.41, 13599.8, -0.00367061],
+      "type": "NameVillage"
+    },
+    "Nasua": { "pos": [11417.6, 12360.2, -105.833], "type": "NameVillage" },
+    "Savu": { "pos": [8393.35, 13778.4, 0.000841047], "type": "NameVillage" },
+    "Muaceba": { "pos": [1556.43, 8545.12, -0.733838], "type": "NameVillage" },
+    "Momea": { "pos": [10423.8, 13252.2, -20.6373], "type": "NameVillage" },
+    "Laikoro": { "pos": [1628.02, 6190.57, 0], "type": "NameVillage" },
+    "Yanukka": { "pos": [3051.14, 3448.56, -17.0524], "type": "NameVillage" },
+    "Cerebu": { "pos": [2131.95, 4589.63, -6.61045], "type": "NameVillage" },
+    "Luganville": {
+      "pos": [14040.9, 8308.29, -1.57949],
+      "type": "NameVillage"
+    },
+    "PÃ©nÃ©lo": { "pos": [10966.2, 13183.5, -16.9658], "type": "NameVillage" },
+    "Nani": { "pos": [1954.62, 10727, -5.50346], "type": "NameVillage" },
+    "Port-BoisÃ©": {
+      "pos": [12715.1, 3309.17, -9.54124],
+      "type": "NameVillage"
+    },
+    "Tavu": { "pos": [974.49, 7654.05, -3.96532], "type": "NameVillage" },
+    "Vatukoulo": { "pos": [14057.4, 9955.55, -98.8908], "type": "NameVillage" },
+    "Lailai": { "pos": [3627.54, 2208.85, -45.4752], "type": "NameVillage" },
+    "Nandai": { "pos": [14496.3, 8877.4, -1.13811], "type": "NameVillage" },
+    "Ovau": { "pos": [12401.7, 12787.8, -1.56371], "type": "NameVillage" },
+    "Bua Bua": { "pos": [13255.1, 3019.73, -58.4955], "type": "NameVillage" },
+    "Taga": { "pos": [12255.2, 1880.2, -121.022], "type": "NameVillage" },
+    "Ba": { "pos": [14295.2, 11680.3, -1.10196], "type": "NameVillage" },
+    "Rereki": {
+      "pos": [13069.4, 2117.94, -0.000138119],
+      "type": "NameVillage"
+    },
+    "Ipota": { "pos": [12317.8, 13929.5, -9.70543], "type": "NameVillage" },
+    "Koumac": { "pos": [1347.24, 2968.37, 0.0871336], "type": "NameVillage" },
+    "diesel power plant": {
+      "pos": [7270.84, 8391.29, -3.75423],
+      "type": "NameLocal"
+    },
+    "lumberyard": { "pos": [5511.58, 11888.2, -4.65156], "type": "NameLocal" },
+    "cocoa plantations": {
+      "pos": [8939.47, 6627.97, -2.8506],
+      "type": "NameLocal"
+    },
+    "Yani Islets": {
+      "pos": [6176.72, 6514.98, -0.0373727],
+      "type": "NameLocal"
+    },
+    "Tanoa Sugar Company": {
+      "pos": [8323.44, 10434.3, -20.3019],
+      "type": "NameLocal"
+    },
+    "plantation": { "pos": [11043.3, 7946.22, -98.7747], "type": "NameLocal" },
+    "temple ruins": {
+      "pos": [11003.1, 8421.68, -204.454],
+      "type": "NameLocal"
+    },
+    "railway depot": {
+      "pos": [4276.75, 8527.25, -2.75534],
+      "type": "NameLocal"
+    },
+    "ferry": { "pos": [2270.34, 8652.99, 0.0250105], "type": "NameLocal" },
+    "sawmill": { "pos": [11761.2, 6949.91, -18.6916], "type": "NameLocal" },
+    "Yasa Island": { "pos": [3618.15, 9410.23, -12.0412], "type": "NameLocal" },
+    "Comms Alpha": { "pos": [10098.7, 11818.1, -410.444], "type": "NameLocal" },
+    "banana plantations": {
+      "pos": [12534, 7801.59, -20.3506],
+      "type": "NameLocal"
+    },
+    "roadhouse": { "pos": [8526.85, 12467.3, -169.231], "type": "NameLocal" },
+    "Mont Tanoa": { "pos": [9784.26, 12114.1, -318.164], "type": "NameLocal" },
+    "Red Spring surface mine": {
+      "pos": [11868.6, 10426.9, -183.737],
+      "type": "NameLocal"
+    },
+    "Comms Bravo": { "pos": [10978.5, 11499.6, -350.717], "type": "NameLocal" },
+    "Sosovu Island": {
+      "pos": [2706.66, 9120.98, -17.7828],
+      "type": "NameLocal"
+    },
+    "harbor remnants": {
+      "pos": [4215.39, 11667.7, 0.00724833],
+      "type": "NameLocal"
+    },
+    "fuel depot": { "pos": [2263.18, 6333.35, -12.9868], "type": "NameLocal" },
+    "forest clearing": {
+      "pos": [12169.8, 3867.38, -110.184],
+      "type": "NameLocal"
+    },
+    "maze": { "pos": [4132.81, 12422.4, -15.1983], "type": "NameLocal" },
+    "Ile Saint-George": {
+      "pos": [13313.5, 5162.11, -25.8203],
+      "type": "NameLocal"
+    },
+    "Tuadua Island": {
+      "pos": [8368.14, 1335.01, -58.4271],
+      "type": "NameLocal"
+    },
+    "firing range": {
+      "pos": [3314.57, 12861.9, -13.1527],
+      "type": "NameLocal"
+    },
+    "Comms Whiskey": {
+      "pos": [2722.81, 12317.6, -168.903],
+      "type": "NameLocal"
+    },
+    "fortress ruins": {
+      "pos": [12055.2, 2467.86, -4.53488],
+      "type": "NameLocal"
+    },
+    "vehicle range": {
+      "pos": [3809.57, 13489.6, -22.0144],
+      "type": "NameLocal"
+    },
+    "GSM station": { "pos": [3012.63, 13074.6, -118.205], "type": "NameLocal" },
+    "Ile Sainte-Marie": {
+      "pos": [5318.48, 14542.4, -16.9732],
+      "type": "NameLocal"
+    },
+    "camp remnants": { "pos": [3821.88, 14035.8, 0], "type": "NameLocal" },
+    "training base": {
+      "pos": [2340.53, 13230.4, -12.4637],
+      "type": "NameLocal"
+    },
+    "Ile Douen": { "pos": [742.22, 11165.7, -7.44233], "type": "NameLocal" },
+    "hotel resort": { "pos": [12383, 14135.3, -22.9942], "type": "NameLocal" },
+    "Forbidden Village": {
+      "pos": [1697.57, 13211.4, -4.23623],
+      "type": "NameLocal"
+    },
+    "port": { "pos": [13261.6, 13691.9, -1.21014], "type": "NameLocal" },
+    "Ravi-ta Island": {
+      "pos": [12820.8, 14195, -46.7538],
+      "type": "NameLocal"
+    },
+    "Imuri Island": { "pos": [1521.62, 887.52, -3.53988], "type": "NameLocal" }
+  },
+  "waterGrids": [
+    "0,0",
+    "0,1",
+    "0,4",
+    "0,5",
+    "0,6",
+    "0,9",
+    "0,12",
+    "0,13",
+    "0,14",
+    "1,9",
+    "1,14",
+    "2,14",
+    "3,0",
+    "4,0",
+    "5,0",
+    "5,6",
+    "6,0",
+    "6,1",
+    "6,2",
+    "6,5",
+    "6,14",
+    "7,0",
+    "7,1",
+    "7,2",
+    "7,3",
+    "7,5",
+    "8,0",
+    "9,0",
+    "9,1",
+    "9,14",
+    "10,0",
+    "11,0",
+    "12,0",
+    "13,0",
+    "13,1",
+    "13,6",
+    "14,0",
+    "14,1",
+    "14,2",
+    "14,3",
+    "14,4",
+    "14,5",
+    "14,6",
+    "14,13",
+    "14,14"
+  ]
+}

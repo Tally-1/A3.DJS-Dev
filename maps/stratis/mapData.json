@@ -1,0 +1,91 @@
+{
+  "name": "Stratis",
+  "size": 8,
+  "locations": {
+    "Agia Marina": {
+      "pos": [2915.2, 6164.52, -21.9009],
+      "type": "NameCityCapital"
+    },
+    "Girna": { "pos": [1935.28, 2722.61, 0], "type": "NameCity" },
+    "Stratis Air Base": {
+      "pos": [1987.31, 5625.9, -5.96042],
+      "type": "NameCity"
+    },
+    "Air Station Mike-26": {
+      "pos": [4278.85, 3855.6, -217.831],
+      "type": "NameVillage"
+    },
+    "Camp Maxwell": {
+      "pos": [3252.96, 2984.3, -222.619],
+      "type": "NameVillage"
+    },
+    "Camp Rogain": {
+      "pos": [4886.45, 5948.26, -183.532],
+      "type": "NameVillage"
+    },
+    "Camp Tempest": {
+      "pos": [1941.68, 3556.72, -2.7864],
+      "type": "NameVillage"
+    },
+    "Kamino Firing Range": {
+      "pos": [6401.97, 5427.13, -7.4887],
+      "type": "NameVillage"
+    },
+    "Old Outpost": { "pos": [4318.72, 4398.14, -179.132], "type": "NameLocal" },
+    "LZ Baldy": { "pos": [4604.3, 5284.43, -129.97], "type": "NameLocal" },
+    "Tsoukalia": { "pos": [4205.64, 2714.88, -42.5791], "type": "NameLocal" },
+    "military range": {
+      "pos": [3338.44, 5744.44, -4.88803],
+      "type": "NameLocal"
+    },
+    "Agios Ioannis": {
+      "pos": [3027.38, 2183.84, -151.004],
+      "type": "NameLocal"
+    },
+    "LZ Connor": { "pos": [2979.45, 1860.23, -171.409], "type": "NameLocal" },
+    "Kamino Coast": {
+      "pos": [5690.81, 6123.91, -20.3592],
+      "type": "NameLocal"
+    },
+    "Agios Cephas": {
+      "pos": [2718.53, 1712.08, -130.502],
+      "type": "NameLocal"
+    },
+    "Kill Farm": { "pos": [4449.56, 6845.08, -91.6142], "type": "NameLocal" },
+    "airfield": { "pos": [1697.19, 5554.18, -5.5], "type": "NameLocal" },
+    "Pythos": { "pos": [7055.11, 5953.82, -12.5299], "type": "NameLocal" },
+    "The Spartan": { "pos": [2615.44, 597.12, -63.3172], "type": "NameLocal" },
+    "Xiros": { "pos": [3712.09, 7940.36, 0], "type": "NameLocal" }
+  },
+  "waterGrids": [
+    "[0,0]",
+    "[0,1]",
+    "[0,2]",
+    "[0,3]",
+    "[0,4]",
+    "[0,5]",
+    "[0,6]",
+    "[0,7]",
+    "[1,0]",
+    "[1,7]",
+    "[2,7]",
+    "[3,0]",
+    "[4,0]",
+    "[4,1]",
+    "[5,0]",
+    "[5,1]",
+    "[5,7]",
+    "[6,0]",
+    "[6,1]",
+    "[6,2]",
+    "[6,3]",
+    "[6,6]",
+    "[6,7]",
+    "[7,0]",
+    "[7,1]",
+    "[7,2]",
+    "[7,3]",
+    "[7,4]",
+    "[7,7]"
+  ]
+}
