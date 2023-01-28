@@ -6,4 +6,4 @@ However if you are using A3DJS as a paid feature on your server some kick-back w
 
 If you would like to contribute to the further developement of this project you can donate to my paypal.
 
-* [Paypal me] https://www.paypal.com/paypalme/LHartgen
+* [Paypal me](https://www.paypal.com/paypalme/LHartgen)
