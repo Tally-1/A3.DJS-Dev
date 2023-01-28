@@ -7,6 +7,7 @@ The licensed portion is in the source / build folders, I do not claim any rights
 <br>
 This product is open source, so feel free to grab / tweak / use any portion of it.
 
+<br>
 
 If you are using A3DJS as a paid feature on your server or you would like to contribute  in general:
 
