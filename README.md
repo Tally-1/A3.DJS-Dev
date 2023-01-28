@@ -82,6 +82,9 @@ The "parent-folder" should now look like this:
 2) Select the local **`INIDBI`** version you just loaded.
 2) Select **`A3DJS`** from steam.
 3) Select **`CBA_A3`** from steam.
+
+![Mod selection](gitReadMe/mods.png)
+
 4) Launch Arma 3 and start a game. (that will create the needed files for **`INIDBI`**).
 
 <br> 
