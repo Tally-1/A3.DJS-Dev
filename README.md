@@ -46,6 +46,9 @@ ___
 6) Run `npm install`
 7) Run `tsc`
 
+The "parent-folder" should now look like this:
+
+![Alt text](gitReadMe/Folder-example.png)
 <br> 
 
 ### Getting an actual bot.
