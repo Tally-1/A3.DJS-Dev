@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon build/app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Leo aleksander Hartgen",
+  "license": "BSD 3-Clause",
   "dependencies": {
     "@napi-rs/canvas": "^0.1.34",
     "@types/canvasjs": "^1.9.7",
