@@ -1,10 +1,6 @@
 node_modules
 build
-notePad.txt
-config.json
-*config*
-A3DJS_config.json
-A3DJS_config
-devConfig.json
+
 snapShot.jpg
 todo.txt
+notePad.txt
