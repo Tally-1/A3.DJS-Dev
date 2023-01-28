@@ -23,7 +23,7 @@
 <br>
 <br>
 
-2) Fill out the config (see the long guide for details).
+2) Fill out the config file `A3DJS_Config.json`.
 
 
 3) Run the following commands in the terminal (in this folder):
