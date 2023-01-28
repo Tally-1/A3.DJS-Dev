@@ -1,0 +1,10 @@
+{
+"token":"Your discord-bot token", 
+"serverId":"Id of the guild(server) you will have the bot", 
+"channelNames":["arma-3-chat","arma-3-live","a3djs-mute-me"],
+"owner":"Your discord Id.",
+"botId":"The id of the bot",
+"chatChannel":"(Optional) Will be added automatically if not set here", 
+"liveChannel":"(Optional) Will be added automatically if not set here", 
+"imgChannel":"(Optional) Will be added automatically if not set here"
+}
