@@ -42,7 +42,7 @@ ___
 1) Create a folder for A3.DJS and  INIDBI2. 
    I will refer to it as "parent-folder" from now on.
 2) Place this bot into the "parent-folder"
-3) Move the  _"A3DJS_Config.json"_ from this folder to the "parent-folder"
+3) Move the  ```A3DJS_Config.json``` from this folder to the "parent-folder"
 4) Place a copy of *"@INIDBI2 - Official extension"* into the "parent-folder".
 5) Open the terminal and navigate into this repo.
 6) Run `npm install`
@@ -61,12 +61,12 @@ The "parent-folder" should now look like this:
 
 1) Create a new application at [Discord developers portal](https://discord.com/developers/applications)<br>
 ![New app](gitReadMe/New%20App.png)
-2) Copy the application-ID into the _"A3DJS_Config"_ where it says "botId:"<br>
+2) Copy the application-ID into the ```A3DJS_Config``` where it says "botId:"<br>
 ![Alt text](gitReadMe/app%20ID.png)
 3) Go to the bot-section and click Add bot.<br>
 ![Alt text](gitReadMe/add%20bot.png)
 
-4) Reset the Token and copy it into _"A3DJS_Config"_. where it says "token"
+4) Reset the Token and copy it into ```A3DJS_Config```. where it says "token"
 ![Alt text](gitReadMe/copy%20token%203.png)<br>
 5) Switch on all intents in the **Privileged Gateway Intents** section.<br>
 ![Alt text](gitReadMe/Gateway%20intents.png)<br><br>
@@ -86,12 +86,12 @@ The "parent-folder" should now look like this:
 ![Alt text](gitReadMe/user%20settings.png)
 <br>
 <br>
-2) Rigth-click on the server you are in and copy the id, then paste it into _"A3DJS_Config"_ where it says "serverId".<br>
+2) Rigth-click on the server you are in and copy the id, then paste it into ```A3DJS_Config``` where it says "serverId".<br>
 
 ![Copy Id](gitReadMe/copy-id.png)
 
 <br>
-3) Rigth-click on Your avatar and copy the id, then paste it into _"A3DJS_Config"_ where it says owner.
+3) Rigth-click on Your avatar and copy the id, then paste it into ```A3DJS_Config``` where it says owner.
 <br> <br><br>
 
 Your config should now look like this (ish):<br>
