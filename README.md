@@ -22,8 +22,7 @@ ___
 <br>
 
 ## **[Instalation]**
-
-[TLDR version here.](TLDR_Guide.md)
+[TLDR version here.](gitReadMe/TLDR_Guide.md)
 
 <br>
 
