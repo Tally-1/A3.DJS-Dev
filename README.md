@@ -134,7 +134,7 @@ You got 8 commands to chose from (6 of which are admin only).
 
 ![Alt text](gitReadMe/liveFeed.png)<br><br>
 
-![Alt text](gitReadMe/snapShot.jpg)<br><br>
+![Alt text](gitReadMe/sat-img.jpg)<br><br>
 
 ![Alt text](gitReadMe/chat-relay-arma-to-discord.png)<br><br>
 
