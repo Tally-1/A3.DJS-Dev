@@ -90,6 +90,7 @@ The "parent-folder" should now look like this:
 Your config should now look like this(ish):<br>
 
 ![Alt text](gitReadMe/finished%20config.png)
+
 <br><br><br>
 ### Set up the INDBI files.
 <br> 
@@ -130,6 +131,7 @@ Any ingame chat on the Discord-channel will be sent to your Discord-channel.
 
 You got 8 commands to chose from (6 of which are admin only).
 <br><br>
+
 ![Alt text](gitReadMe/liveFeed.png)<br><br>
 ![Alt text](gitReadMe/snapShot.jpg)<br><br>
 ![Alt text](gitReadMe/chat-relay-arma-to-discord.png)<br><br>
