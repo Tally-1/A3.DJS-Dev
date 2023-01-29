@@ -133,10 +133,15 @@ You got 8 commands to chose from (6 of which are admin only).
 <br><br>
 
 ![Alt text](gitReadMe/liveFeed.png)<br><br>
+
 ![Alt text](gitReadMe/snapShot.jpg)<br><br>
+
 ![Alt text](gitReadMe/chat-relay-arma-to-discord.png)<br><br>
+
 ![Alt text](gitReadMe/chat-relay-discord-to-arma.png)<br><br>
+
 ![Alt text](gitReadMe/sat-img-example.jpg)<br><br>
+
 ![Alt text](gitReadMe/commands.png)<br><br>
 
 <br><br>Enjoy!
