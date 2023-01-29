@@ -79,10 +79,10 @@ The "parent-folder" should now look like this:
 ![Alt text](gitReadMe/user%20settings.png)
 <br>
 <br>
-2) Rigth-click on the server you are in and copy the id, then paste it into _"A3DJS_Config"_ where it says "serverId".
-<br>
-<br>
-![Alt text](gitReadMe/copy-id.png)
+2) Rigth-click on the server you are in and copy the id, then paste it into _"A3DJS_Config"_ where it says "serverId".<br>
+
+![Copy Id](gitReadMe/copy-id.png)
+
 <br>
 3) Rigth-click on Your avatar and copy the id, then paste it into _"A3DJS_Config"_ where it says owner.
 
