@@ -65,7 +65,7 @@ The "parent-folder" should now look like this:
 ![Alt text](gitReadMe/copy%20token%203.png)<br>
 5) Switch on all intents in the **Privileged Gateway Intents** section.<br>
 ![Alt text](gitReadMe/Gateway%20intents.png)<br><br>
-6) Go to **`OAuth2` -> `URL-Generator`**, mark the "bot-box" and the "administrator-box".![Alt text](gitReadMe/step-6-7.png)
+6) Go to **`OAuth2` -> `URL-Generator`**, mark the "bot-box" and the "administrator-box".<br>![Alt text](gitReadMe/step-6-7.png)<br><br>
 7) Copy the URL at the bottom and paste it into a new tab in your browser.<br><br>
 8) Select the Discord server where you want the bot to run.<br>
 ![Alt text](gitReadMe/invite-bot.png)
