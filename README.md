@@ -122,14 +122,15 @@ Now that the config and the "parent-folder" is all set:
 
 <br> 
 If everything was set up correctly the bot should now create 3 new channels (you can see and set the names in the config).
+<br><br> 
 
-The live channel will show a feed of the ingame situation.
+* The live channel will show a feed of the ingame situation.
 
-Any message sent in the new chat-channel will be sent to your Arma game.
+* Any message sent in the new chat-channel will be sent to your Arma game.
 
-Any ingame chat on the Discord-channel will be sent to your Discord-channel.
+* Any ingame chat on the Discord-channel will be sent to your Discord-channel.
 
-You got 8 commands to chose from (6 of which are admin only).
+* You got 8 commands to chose from (6 of which are admin only).
 <br><br>
 
 ![Alt text](gitReadMe/liveFeed.png)<br><br>
