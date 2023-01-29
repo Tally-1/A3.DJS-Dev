@@ -111,7 +111,7 @@ Your config should now look like this (ish):<br>
 
 ![Mod selection](gitReadMe/mods.png)
 
-5) Launch Arma 3 and start a game. (that will create the needed files for **`INIDBI`**).<br>
+5) Launch Arma 3 and start a game. (that will create the needed files for **`INIDBI`**).<br><br>
 ![Alt text](gitReadMe/Play%20scenario.png)
 
 <br>
