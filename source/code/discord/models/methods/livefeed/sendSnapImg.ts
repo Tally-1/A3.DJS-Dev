@@ -1,7 +1,9 @@
 // Copyright (c) 2023 Leo Aleksander Hartgen.
 // BSD 3-Clause License
 
+import path from "path"; 
 import LiveFeed from "../../classes/LiveFeed";
+
 
 export default
 async function sendSnapImg(this: LiveFeed,deletePrevious?:boolean){
@@ -21,7 +23,8 @@ async function sendSnapImg(this: LiveFeed,deletePrevious?:boolean){
 
     try {
 
-        const newMessage = await this.imageChannel.send({files:["./gameImages/snapShot.jpg"]});
+        const snapshotPath = path.join("gameImages", "snapShot.jpg");
+        const newMessage = await this.imageChannel.send({files:[snapshotPath]});
         if(!newMessage){return;};
 
         if(deletePrevious && this.previousImageMsg){

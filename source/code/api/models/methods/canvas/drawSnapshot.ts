@@ -1,6 +1,8 @@
 // Copyright (c) 2023 Leo Aleksander Hartgen.
 // BSD 3-Clause License
 
+import fs from "fs";
+import path from "path";
 import sleep from "../../../util/sleep";
 import A3session from "../../classes/A3Session";
 import CanvasX from "../../classes/canvas";
@@ -47,7 +49,8 @@ async function drawSnapShot(
   this.writeGameInfo(pencil, snapshot, sessionInfo, backGroundData, knownMap);
   this.drawGameData(pencil, snapshot, backGroundData, sessionInfo.gameTime);
 
-  CanvasX.storeFrame(frame, "./gameImages/snapShot.jpg");
+  const snapshotPath = path.join("gameImages", "snapShot.jpg");
+  CanvasX.storeFrame(frame, snapshotPath);
 }
 
 

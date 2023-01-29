@@ -18,10 +18,6 @@ async function customGridImage(
     const {bottomLeft, size} = backGroundData;
 
     const pth = path.join(".", "maps", map, "cache", "custom", "custom.jpg");
-    // console.log(fs.readdirSync(pth));
-    // process.exit();
-
-    // const pth               = "./maps/"+map+"/cache/custom/custom.jpg";
 
     const frame              = this.createCanvas(size, size);
     const pencil             = frame.getContext("2d");

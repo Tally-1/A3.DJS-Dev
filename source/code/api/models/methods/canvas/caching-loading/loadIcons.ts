@@ -4,6 +4,7 @@
 import { genericObject, genericKey } from "../../../types";
 import { Image } from "@napi-rs/canvas";
 import fs from "fs";
+import path from "path";
 
 export default async function loadIcons(Canvas: genericObject) {
   const icons = {
@@ -15,12 +16,13 @@ export default async function loadIcons(Canvas: genericObject) {
   } as genericObject;
 
   for (const folder of ["CIV", "EAST", "WEST", "GUER", "OTHER"]) {
-    const files = fs.readdirSync("./icons/" + folder);
+    const folderPath = path.join("icons", folder);
+    const files = fs.readdirSync(folderPath);
 
     for (const iconPng of files) {
       const name = iconPng.split(".")[0];
-      const path = "./icons/" + folder + "/" + iconPng;
-      const img = await Canvas.loadImage(path) as Image;
+      const iconPath = path.join(folderPath, iconPng);
+      const img = await Canvas.loadImage(iconPath) as Image;
       icons[folder as genericKey][name as genericKey] = img;
     }
   }

@@ -3,7 +3,6 @@
 
 import path from "path";
 import fs from "fs";
-import multiGrid from "../../../../util/multiGrid";
 import CanvasX from "../../../classes/canvas";
 import { position2D } from "../../../types";
 
