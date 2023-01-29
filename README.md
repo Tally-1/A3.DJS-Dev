@@ -85,10 +85,12 @@ The "parent-folder" should now look like this:
 
 <br>
 3) Rigth-click on Your avatar and copy the id, then paste it into _"A3DJS_Config"_ where it says owner.
+<br> <br>
 
+Your config should now look like this(ish):<br>
 
-<br> 
-
+![Alt text](gitReadMe/finished%20config.png)
+<br><br><br>
 ### Set up the INDBI files.
 <br> 
 
