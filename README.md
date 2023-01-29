@@ -82,7 +82,7 @@ The "parent-folder" should now look like this:
 2) Rigth-click on the server you are in and copy the id, then paste it into _"A3DJS_Config"_ where it says "serverId".
 <br>
 <br>
-![Alt text](gitReadMe/copy%20id.png)
+![Alt text](gitReadMe/copy-id.png)
 <br>
 3) Rigth-click on Your avatar and copy the id, then paste it into _"A3DJS_Config"_ where it says owner.
 
@@ -133,9 +133,9 @@ You got 8 commands to chose from (6 of which are admin only).
 ![Alt text](gitReadMe/chat-relay-arma-to-discord.png)<br><br>
 ![Alt text](gitReadMe/chat-relay-discord-to-arma.png)<br><br>
 ![Alt text](gitReadMe/sat-img-example.jpg)<br><br>
+![Alt text](gitReadMe/commands.png)<br><br>
 
-
-Enjoy!
+<br><br>Enjoy!
 
 
 Best regards Tally!

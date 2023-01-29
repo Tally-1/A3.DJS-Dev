@@ -25,6 +25,9 @@
 
 2) Fill out the config file `A3DJS_Config.json`.
 
+5) Switch on all intents in the **Privileged Gateway Intents** section.<br>
+![Alt text](gitReadMe/Gateway%20intents.png)<br><br>
+
 
 3) Run the following commands in the terminal (in this folder):
 * `npm install`
