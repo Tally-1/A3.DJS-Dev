@@ -33,8 +33,11 @@ ___
 * [A3DJS](https://steamcommunity.com/sharedfiles/filedetails/?id=2924824356)   (Arma 3 addon)
 
 <br> 
+<br>
 
-### Setting up the enviroment:
+---
+
+### **Setting up the enviroment:**
 <br> 
 
 1) Create a folder for A3.DJS and  INIDBI2. 
@@ -50,8 +53,11 @@ The "parent-folder" should now look like this:
 
 ![Alt text](gitReadMe/Folder-example.png)
 <br> 
+<br>
+<br>
 
-### Getting an actual bot.
+---
+### **Getting an actual bot.**
 <br> 
 
 1) Create a new application at [Discord developers portal](https://discord.com/developers/applications)<br>
@@ -71,8 +77,10 @@ The "parent-folder" should now look like this:
 ![Alt text](gitReadMe/invite-bot.png)
 <br> 
 <br>
+<br>
 
-### Get the remaining data for the config.
+---
+### **Get the remaining data for the config.**
 <br> 
 
 1) Open Discord and go to `user settings`->`advanced` and check the **Developer Mode** on.<br>
@@ -85,14 +93,16 @@ The "parent-folder" should now look like this:
 
 <br>
 3) Rigth-click on Your avatar and copy the id, then paste it into _"A3DJS_Config"_ where it says owner.
-<br> <br>
+<br> <br><br>
 
-Your config should now look like this(ish):<br>
-
+Your config should now look like this (ish):<br>
 ![Alt text](gitReadMe/finished%20config.png)
 
-<br><br><br>
-### Set up the INDBI files.
+<br>
+
+---
+
+### **Set up the INDBI files.**
 <br> 
 
 1) Open the Arma 3 launcher and load the INIDBI folder from the "parent-folder" as a local mod.
@@ -105,9 +115,11 @@ Your config should now look like this(ish):<br>
 5) Launch Arma 3 and start a game. (that will create the needed files for **`INIDBI`**).<br>
 ![Alt text](gitReadMe/Play%20scenario.png)
 
-<br> 
+<br>
 
-### Launch the bot.
+---
+
+### **Launch the bot.**
 <br> 
 
 Now that the config and the "parent-folder" is all set:
