@@ -34,7 +34,7 @@
 
 4) Launch Arma with these mods:
 
-![Folder structure](gitReadMe/mods.png)
+![Mod selection](gitReadMe/mods.png)
 
 
 5) Start a game to initialize the INIDB files.

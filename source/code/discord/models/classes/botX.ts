@@ -48,11 +48,17 @@ class BotX extends Client{
     configFile:string;
     snapshot:Snapshot
     channelsLoaded:boolean;
+    version:number;
     A3Channels?:A3ChannelList
     sessionData?:A3session;
-    discordServer?:Guild
+    discordServer?:Guild;
     
-    constructor(folder:string, configFile:string){
+    
+    constructor(
+        folder:string, 
+        configFile:string,
+        version:number
+        ){
         super({ intents: ["Guilds", "GuildMessages", "DirectMessages", "MessageContent"] });
         
         const jsonConfig = fs.readFileSync(configFile) as unknown as string;
@@ -66,6 +72,7 @@ class BotX extends Client{
         this.configFile   = configFile
         this.snapshot     = Snapshot.getCurrent(folder);
         this.channelsLoaded = false;
+        this.version       = version;
 
     }
     

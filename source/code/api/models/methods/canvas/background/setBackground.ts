@@ -20,7 +20,7 @@ async function setBackground(this:CanvasX, pencil:SKRSContext2D, map:string, bac
       background = this.drawMultiGrid(grid, gridCount, size, map, null, true);
     }
     else{
-      const imgPath    = await this.customGridImage(backGroundData, map);
+      const imgPath    = await this.customGridImage(backGroundData);
       background       = await this.loadImage(imgPath);
     }
   

@@ -4,9 +4,9 @@
 import BotX from "./models/classes/botX";
 
 export default 
-function deployBot(folder:string, configFile:string){
+function deployBot(folder:string, configFile:string, version:number){
     
-    const bot = new BotX(folder, configFile);
+    const bot = new BotX(folder, configFile, version);
     
     //@ts-expect-error
     process.bot = bot;

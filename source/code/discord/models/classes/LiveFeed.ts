@@ -16,7 +16,7 @@ import { A3ChannelList } from "./types";
 
 export default
 class LiveFeed{
-    bot:Client;
+    bot:BotX;
     sessionData:A3session;
     snapshot:Snapshot;
     chatChannel:TextChannel;
@@ -33,7 +33,7 @@ class LiveFeed{
     constructor(bot:BotX, sessionData:A3session){
         const A3Channels      = bot.A3Channels as A3ChannelList;
         this.sessionData      = sessionData
-        this.bot              = bot;
+        this.bot              = bot as BotX;
         this.chatChannel      = A3Channels.chatChannel;
         this.liveChannel      = A3Channels.liveChannel;
         this.imageChannel     = A3Channels.imgChannel;

@@ -32,6 +32,7 @@ export default class A3session {
   mission:string;
   stats:SessionStats;
   responses:responseList;
+  version:number;
   latestKillText?:{id:string, text:string}
   [key: string | number | symbol]:
     | number
@@ -51,6 +52,7 @@ export default class A3session {
 
     this.updateFrequency = sessionData.updateFrequency;
     this.sessionName = sessionData.sessionName;
+    this.version = sessionData.version;
     this.map = sessionData.map;
     this.mapData = sessionData.mapData;
     this.focusType = sessionData.focusType;

@@ -23,20 +23,16 @@ function parseSessionFile(this:A3session){
 
         const updateFrequency = +JSON.parse(object.updateFreq);
         const sessionTime = object.session as string;
+        const version = +JSON.parse(object.version);
         const focusType = +JSON.parse(object.focusType);
         const focusEnemy = JSON.parse(JSON.parse(object.focusEnemy)) as boolean;
-
+        
+        
         const mapsFolder = path.join(__dirname,"..","..","..","..","..","..", "maps");
         let dataPath = path.join(mapsFolder, map, "mapData.json");
+        
         if(!fs.existsSync(dataPath)){
-            // console.log("Cannot find wanted map..");
-            // console.log(dataPath);
             dataPath = path.join(mapsFolder, "VR", "mapData.json");
-            // console.log("Using VR data");
-            // //@ts-expect-error
-            // const bot = process.bot as BotX;
-            // bot.A3Channels?.chatChannel.send("``` Shutting down bot, unknown map loaded. ```")
-            // .then(v=>{process.exit();})
         };
         
         const data = fs.readFileSync(dataPath) as unknown as string;
@@ -50,7 +46,8 @@ function parseSessionFile(this:A3session){
             focusType:focusType,
             focusEnemy:focusEnemy,
             serverName:serverName,
-            mission:mission
+            mission:mission,
+            version:version
         } as genericObject;
 
         return parsedData;

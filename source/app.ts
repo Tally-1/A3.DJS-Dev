@@ -5,11 +5,25 @@ import { initApi } from "./code/api/initApi";
 import path from "path";
 import deployBot from "./code/discord/deployBot";
 
-const A3INIfolder = path.join(__dirname,"..", "..", "@iniDB2", "db");
+const version = 0.13
+const A3INIfolder = path.join(__dirname,"..", "..", "@INIDBI2 - Official extension", "db");
 const configFile = path.join(__dirname,"..", "..","A3DJS_Config.json");
 
 initApi(A3INIfolder);
-deployBot(A3INIfolder, configFile);
+const bot = deployBot(A3INIfolder, configFile, version);
+
+
+
+
+// async function drawNow(size:number) {
+//     const cvx = new CanvasX("altis");
+//     while (!cvx.loaded) {
+//         await setTimeout(100);
+//     }
+//     cvx.drawWholeMap(size);
+// };
+
+// drawNow(3000);
 
 // import child_process from "child_process";
 // process.on("exit", function () {

@@ -38,7 +38,7 @@ module.exports = {
             ] as [string, string, string, string];
 
 
-            INIparser.sendCommand(request, "syschat-global", bot.A3DJS_folder)
+            INIparser.sendCommand(request, "syschat-global", bot.A3DJS_folder);
             await bot.commandResponseReply(interaction, requestId, time);
         }
         else{

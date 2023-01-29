@@ -54,22 +54,36 @@ The "parent-folder" should now look like this:
 ### Getting an actual bot.
 <br> 
 
-1) Create a new application at https://discord.com/developers/applications
-2) Copy the application-ID into the _"A3DJS_Config"_ where it says "botId:"
-3) Go to the bot-section and click Add bot.
-4) Reset the Token and copy it into _"A3DJS_Config"_. where it says "token"
-5) Switch on all intents in the **Privileged Gateway Intents** section.
-6) Go to **`OAuth2` -> `URL-Generator`**, mark the "bot-box" and the "administrator-box".
-7) Copy the URL at the bottom and paste it into a new tab in your browser.
-8) Select the Discord server where you want the bot to run.
+1) Create a new application at [Discord developers portal](https://discord.com/developers/applications)<br>
+![New app](gitReadMe/New%20App.png)
+2) Copy the application-ID into the _"A3DJS_Config"_ where it says "botId:"<br>
+![Alt text](gitReadMe/app%20ID.png)
+3) Go to the bot-section and click Add bot.<br>
+![Alt text](gitReadMe/add%20bot.png)
 
+4) Reset the Token and copy it into _"A3DJS_Config"_. where it says "token"
+![Alt text](gitReadMe/copy%20token%203.png)<br>
+5) Switch on all intents in the **Privileged Gateway Intents** section.<br>
+![Alt text](gitReadMe/Gateway%20intents.png)<br><br>
+6) Go to **`OAuth2` -> `URL-Generator`**, mark the "bot-box" and the "administrator-box".![Alt text](gitReadMe/step-6-7.png)
+7) Copy the URL at the bottom and paste it into a new tab in your browser.<br><br>
+8) Select the Discord server where you want the bot to run.<br>
+![Alt text](gitReadMe/invite-bot.png)
 <br> 
+<br>
 
 ### Get the remaining data for the config.
 <br> 
 
-1) Open Discord and go to `user settings`->`advanced` and check the **Developer Mode** on.
+1) Open Discord and go to `user settings`->`advanced` and check the **Developer Mode** on.<br>
+![Alt text](gitReadMe/user%20settings.png)
+<br>
+<br>
 2) Rigth-click on the server you are in and copy the id, then paste it into _"A3DJS_Config"_ where it says "serverId".
+<br>
+<br>
+![Alt text](gitReadMe/copy%20id.png)
+<br>
 3) Rigth-click on Your avatar and copy the id, then paste it into _"A3DJS_Config"_ where it says owner.
 
 
@@ -85,7 +99,8 @@ The "parent-folder" should now look like this:
 
 ![Mod selection](gitReadMe/mods.png)
 
-4) Launch Arma 3 and start a game. (that will create the needed files for **`INIDBI`**).
+5) Launch Arma 3 and start a game. (that will create the needed files for **`INIDBI`**).<br>
+![Alt text](gitReadMe/Play%20scenario.png)
 
 <br> 
 
@@ -106,8 +121,19 @@ Now that the config and the "parent-folder" is all set:
 If everything was set up correctly the bot should now create 3 new channels (you can see and set the names in the config).
 
 The live channel will show a feed of the ingame situation.
+
 Any message sent in the new chat-channel will be sent to your Arma game.
+
 Any ingame chat on the Discord-channel will be sent to your Discord-channel.
+
+You got 8 commands to chose from (6 of which are admin only).
+<br><br>
+![Alt text](gitReadMe/liveFeed.png)<br><br>
+![Alt text](gitReadMe/snapShot.jpg)<br><br>
+![Alt text](gitReadMe/chat-relay-arma-to-discord.png)<br><br>
+![Alt text](gitReadMe/chat-relay-discord-to-arma.png)<br><br>
+![Alt text](gitReadMe/sat-img-example.jpg)<br><br>
+
 
 Enjoy!
 

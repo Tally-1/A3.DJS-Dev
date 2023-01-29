@@ -1,79 +1,59 @@
 // Copyright (c) 2023 Leo Aleksander Hartgen.
 // BSD 3-Clause License
 
+import path from "path";
 import fs from "fs";
 import multiGrid from "../../../../util/multiGrid";
 import CanvasX from "../../../classes/canvas";
 import { position2D } from "../../../types";
 
 
-export default function drawMultiGrid(
-    this:CanvasX,
-    baseGrid:position2D, 
-    xGridCount:number, 
-    imageSize:number,
-    map:string,
-    path:string|null|undefined,
-    returnCnvsElement:boolean
-    ) {
+export default function drawMultiGrid(this:CanvasX,
+  baseGrid:position2D, 
+  xGridCount:number, 
+  imageSize:number,
+  map:string,
+  pth:string|null|undefined,
+  returnCnvsElement:boolean
+  ) {
   
-      let canvasXInstance = this;
+  const mapsFolder = path.join(__dirname, "..", "..", "..", "..", "maps");
+  if(!pth){pth = path.join(mapsFolder, map, "cache", "custom", map+".jpg")};
   
-  if(!path){path = "./maps/"+map+"/cache/misc/["+baseGrid+"]"+ "x"+ xGridCount + " "+ imageSize +"px"+ ".jpg";};
-  if(canvasXInstance === undefined){
-    console.log("CanvasX is undefined");
-    // this = require("@napi-rs/canvas");
-  };
-  if(fs.existsSync(path)
-  &&!returnCnvsElement){return path};
+  if(fs.existsSync(pth)
+  &&!returnCnvsElement){return pth};
   
-  const grids = multiGrid(baseGrid, xGridCount);
-  const gridImages = [];
-  const waterGrids = this.mapData.waterGrids;
+  const gridImages = this.getGridImages(baseGrid, xGridCount);
   
-  for (const grid of grids) {
-  
-    let gridName = "["+grid+"]";
-    const waterGrid = waterGrids.includes(gridName);
-    if(waterGrid){gridName = "water"};
-  
-    const gridImage = this.grids[gridName];
-  
-    if(gridImage !== undefined){gridImages.push(gridImage)}
-    else{gridImages.push(this.grids[("[-1,-1]")])};
-  
-  };
-  
-  let size  = gridImages[0].naturalWidth;
-  if(undefined != imageSize){size = imageSize};
-  
-  const gridSize = size / xGridCount;
-  const frame = this.createCanvas(size,size);
+  if(imageSize > 3000){imageSize = 3000};
+
+  const frame = this.createCanvas(imageSize,imageSize);
+  const gridImgSize = imageSize / xGridCount;
   const pencil = frame.getContext('2d');
-  
+
   let x = 0;
-  //Y-coordinates in Arma 3 and in web-dev are the oposite, hence the position needs to be inverted.
-  let y = 0 + (size - gridSize);
-  
-  
+  let y = 0 + (imageSize - gridImgSize);
+  let i = 0;
+
   for (const image of gridImages) {
-    
-    if(x >= size)
-    {
-        x=0;
-        y = y-gridSize;
-    }
   
-    pencil.drawImage(image, x, y, gridSize, gridSize);
-    x = x+gridSize;
+      if(i == xGridCount){
+          x=0;
+          y = y-gridImgSize;
+          i = 0;
+      }
     
-  };
-  
+      pencil.drawImage(image, x, y, gridImgSize, gridImgSize);
+      x = x+gridImgSize;
+      i++;
+    };
+
+    
   if(returnCnvsElement){return frame;};
   
   const buffer = frame.toBuffer('image/jpeg');
-  fs.writeFileSync(path, buffer);
-  console.log("created file: " + path);
-  
-  return path;
+  fs.writeFileSync(pth, buffer);
+  console.log("created file: " + pth);
+
+  return pth;
   };

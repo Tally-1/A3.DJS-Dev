@@ -30,6 +30,7 @@ import drawMultiGrid from "../methods/canvas/drawing-writing/drawMultiGrid";
 import removeCachedFiles from "../methods/canvas/removeCachedFiles";
 import logAndCacheManager from "../methods/canvas/caching-loading/logAndCacheManager";
 import cleanCache from "../methods/canvas/caching-loading/cleanCache";
+import getGridImages from "../methods/canvas/caching-loading/getGridImages";
 
 
 /*
@@ -136,6 +137,7 @@ class CanvasX {
   drawObjectMarker = drawObjectMarker;
 
   getVehicleIcon = getVehicleIcon;
+  getGridImages = getGridImages;
     
   static removeCachedFiles = removeCachedFiles;
   static storeFrame = storeFrame;

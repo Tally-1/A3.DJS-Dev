@@ -30,7 +30,7 @@ async function waitForBot(){
     };
 
     //@ts-expect-error
-    const bot = process.bot;
+    const bot = process.bot as BotX;
 
     while(bot.A3Channels === undefined){
         if(i>=10){
