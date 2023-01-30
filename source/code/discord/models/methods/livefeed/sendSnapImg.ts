@@ -3,6 +3,7 @@
 
 import path from "path"; 
 import LiveFeed from "../../classes/LiveFeed";
+import { setTimeout } from 'node:timers/promises'
 
 
 export default
@@ -18,7 +19,7 @@ async function sendSnapImg(this: LiveFeed,deletePrevious?:boolean){
 
     this.sendingImage = true;
 
-    if(deletePrevious === undefined){deletePrevious = true;};
+    if(deletePrevious === undefined){ deletePrevious = true; };
 
 
     try {

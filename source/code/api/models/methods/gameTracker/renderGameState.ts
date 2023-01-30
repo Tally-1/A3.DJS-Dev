@@ -33,8 +33,9 @@ async function renderGameState(
       dataFound = true;
 
       GameTracker.stateToProccess(sessionInfo, snapshot);
-      discordFeed?.updateTransmission(snapshot);
 
+      const feedUpdated = discordFeed?.updateTransmission(snapshot);
+      // do something here
       
       
     }

@@ -3,7 +3,6 @@
 
 import { AutocompleteInteraction, ChatInputCommandInteraction, SlashCommandBuilder, SlashCommandStringOption, SlashCommandSubcommandBuilder } from "discord.js";
 import INIparser from "../../api/models/classes/INIparser";
-import { setTimeout } from 'node:timers/promises'
 import BotX from "../models/classes/botX";
 
 

@@ -5,6 +5,8 @@ import { TextChannel } from "discord.js";
 
 export default
 async function cleanUp(channel: TextChannel){
+    if(channel === undefined){return};
+
     const messages = await channel.messages.fetch({limit:100});
     if(messages.size===0){return};
     console.log("Deleting "+messages.size+" messages in "+channel.name+".");
