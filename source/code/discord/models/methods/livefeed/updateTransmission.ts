@@ -26,7 +26,7 @@ async function updateTransmission(this:LiveFeed ,snapshot:Snapshot){
     this.imageUrl = imageUrl;
     const newEmbed = new LiveEmbed(this);
 
-   await liveMessage.edit("...");
-   liveMessage.edit({embeds: [newEmbed]});
+   await liveMessage.edit({content:"...",embeds: []});
+   await liveMessage.edit({embeds: [newEmbed]});
    return true;
 };
