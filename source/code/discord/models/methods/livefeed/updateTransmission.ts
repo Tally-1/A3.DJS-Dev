@@ -9,12 +9,18 @@ import { setTimeout } from 'node:timers/promises'
 export default
 async function updateTransmission(this:LiveFeed ,snapshot:Snapshot){
 
+    const timeSinceLast = (new Date().getTime()) - this.lastUpdate;
+    if(timeSinceLast < this.updateFrequency){return;};
+
     this.snapshot = snapshot;
 
     if(!this.liveMsgId){return false};
 
     const liveMessage = await this.liveChannel.messages.fetch(this.liveMsgId);
+    
+    if(liveMessage === undefined){return false};
     if(!liveMessage){return false};
+    
 
     const imageUrl = await this.sendSnapImg();
 
@@ -26,7 +32,9 @@ async function updateTransmission(this:LiveFeed ,snapshot:Snapshot){
     this.imageUrl = imageUrl;
     const newEmbed = new LiveEmbed(this);
 
-   await liveMessage.edit({content:"...",embeds: []});
+//    await liveMessage.edit({content:"..."});
    await liveMessage.edit({embeds: [newEmbed]});
+
+   this.lastUpdate = new Date().getTime();
    return true;
 };

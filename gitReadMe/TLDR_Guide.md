@@ -12,7 +12,7 @@
 
 1) Make a folder looking like this:
 
-![Folder structure](gitReadMe/Folder-example.png)
+![Folder structure](./Folder-example.png)
 
 `@INDIBI2 - Official extension` -> Local copy of [INIDBI2](https://steamcommunity.com/sharedfiles/filedetails/?id=1768992669&searchtext=INIDBI2)
 
@@ -26,7 +26,7 @@
 2) Fill out the config file `A3DJS_Config.json`.
 
 5) Switch on all intents in the **Privileged Gateway Intents** section.<br>
-![Alt text](gitReadMe/Gateway%20intents.png)<br><br>
+![Alt text](./Gateway%20intents.png)<br><br>
 
 
 3) Run the following commands in the terminal (in this folder):
@@ -37,7 +37,7 @@
 
 4) Launch Arma with these mods:
 
-![Mod selection](gitReadMe/mods.png)
+![Mod selection](./mods.png)
 
 
 5) Start a game to initialize the INIDB files.

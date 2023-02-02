@@ -24,7 +24,7 @@ class LiveFeed{
     imageChannel:TextChannel;
     previousImageMsg:Message|undefined;
     sendingImage:boolean;
-    lastImgOutTime:number;
+    lastUpdate:number;
     updateFrequency:number;
     imageUrl?:string;
     liveMsgId?:string;
@@ -39,8 +39,8 @@ class LiveFeed{
         this.imageChannel     = A3Channels.imgChannel;
         this.previousImageMsg = undefined;
         this.sendingImage     = false;
-        this.updateFrequency  = 5000;
-        this.lastImgOutTime   = new Date().getTime() - (this.updateFrequency);//@ts-expect-error
+        this.updateFrequency  = 7000;
+        this.lastUpdate       = new Date().getTime() - (this.updateFrequency);//@ts-expect-error
         this.snapshot         = process.state.currentSnap;
                 
     };

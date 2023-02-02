@@ -13,10 +13,6 @@ async function sendSnapImg(this: LiveFeed,deletePrevious?:boolean){
 
     if(this.sendingImage){return;};
 
-    const timeSinceLast = (new Date().getTime()) - this.lastImgOutTime;
-
-    if(timeSinceLast < this.updateFrequency){return;};
-
     this.sendingImage = true;
 
     if(deletePrevious === undefined){ deletePrevious = true; };
@@ -35,8 +31,7 @@ async function sendSnapImg(this: LiveFeed,deletePrevious?:boolean){
         
         this.previousImageMsg = newMessage;
         const imageUrl = newMessage.attachments.at(0)?.url;
-
-        this.lastImgOutTime = new Date().getTime();
+        
         this.sendingImage = false;
         
         return imageUrl;
