@@ -21,6 +21,7 @@ function sendCommand(
     | "set-wind"
     | "dm-player"
     | "get-unit-status"
+    | "restart"
     
     ,folder:string,
     ){

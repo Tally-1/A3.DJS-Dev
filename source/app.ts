@@ -13,18 +13,6 @@ initApi(A3INIfolder);
 const bot = deployBot(A3INIfolder, configFile, version);
 
 
-
-
-// async function drawNow(size:number) {
-//     const cvx = new CanvasX("altis");
-//     while (!cvx.loaded) {
-//         await setTimeout(100);
-//     }
-//     cvx.drawWholeMap(size);
-// };
-
-// drawNow(3000);
-
 // import child_process from "child_process";
 // process.on("exit", function () {
 // require("child_process")

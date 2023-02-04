@@ -9,32 +9,37 @@ import { setTimeout } from 'node:timers/promises'
 export default
 async function updateTransmission(this:LiveFeed ,snapshot:Snapshot){
 
-    const timeSinceLast = (new Date().getTime()) - this.lastUpdate;
-    if(timeSinceLast < this.updateFrequency){return;};
+    try {
+            const timeSinceLast = (new Date().getTime()) - this.lastUpdate;
+            if(timeSinceLast < this.updateFrequency){return "Too soon";};
 
-    this.snapshot = snapshot;
+            this.snapshot = snapshot;
 
-    if(!this.liveMsgId){return false};
+            if(!this.liveMsgId){return "Id not found"};
 
-    const liveMessage = await this.liveChannel.messages.fetch(this.liveMsgId);
-    
-    if(liveMessage === undefined){return false};
-    if(!liveMessage){return false};
-    
+            const liveMessage = await this.liveChannel.messages.fetch(this.liveMsgId);
+            
+            if(liveMessage === undefined){return "Message not found"};
+            if(!liveMessage){return "Message not found"};
+            
 
-    const imageUrl = await this.sendSnapImg();
+            const imageUrl = await this.sendSnapImg();
 
-    //for some reason the embed is not edited after a while, even though the image is sent, testing to see if timout will fix it.
-    await setTimeout(100);
-    
-    if(!imageUrl){return false};
+            //for some reason the embed is not edited after a while, even though the image is sent, testing to see if timout will fix it.
+            await setTimeout(100);
+            
+            if(!imageUrl){return "Could not get URL for image"};
 
-    this.imageUrl = imageUrl;
-    const newEmbed = new LiveEmbed(this);
+            this.imageUrl = imageUrl;
+            const newEmbed = new LiveEmbed(this);
 
-//    await liveMessage.edit({content:"..."});
-   await liveMessage.edit({embeds: [newEmbed]});
+            await liveMessage.edit({embeds: [newEmbed]});
 
-   this.lastUpdate = new Date().getTime();
-   return true;
+            this.lastUpdate = new Date().getTime();
+            return "Livefeed updated";
+
+    }catch(e){
+        console.log("Something went wrong updating the livefeed");
+        return "update failed";
+    }
 };

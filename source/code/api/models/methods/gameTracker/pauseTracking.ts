@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Leo Aleksander Hartgen.
 // BSD 3-Clause License
 
-import sleep from "../../../util/sleep";
+import { setTimeout } from 'node:timers/promises'
 import A3session from "../../classes/A3Session";
 
 export default
@@ -11,8 +11,6 @@ async function pauseTracking(sessionInfo:A3session, timeSpent:number, dataFound:
     pause = 10;
   }
   if (pause > 0) {
-    await sleep(pause);
-  } else {
-    console.log("Snapshot update was slower than wanted frequency");
-  }
+    await setTimeout(pause);
+  };
 };

@@ -24,8 +24,17 @@ class LiveFeed{
     imageChannel:TextChannel;
     previousImageMsg:Message|undefined;
     sendingImage:boolean;
+    updateStatus:     "update failed" 
+                    | "Too soon" 
+                    | "Id not found" 
+                    | "Message not found" 
+                    | "Could not get URL for image" 
+                    | "Livefeed updated" 
+                    | "Update never sent" 
+                    | "Feed initialized"
     lastUpdate:number;
     updateFrequency:number;
+    startTime:number;
     imageUrl?:string;
     liveMsgId?:string;
     
@@ -39,10 +48,12 @@ class LiveFeed{
         this.imageChannel     = A3Channels.imgChannel;
         this.previousImageMsg = undefined;
         this.sendingImage     = false;
+        this.startTime        = new Date().getTime();
         this.updateFrequency  = 7000;
-        this.lastUpdate       = new Date().getTime() - (this.updateFrequency);//@ts-expect-error
+        this.lastUpdate       = this.startTime - (this.updateFrequency);//@ts-expect-error
         this.snapshot         = process.state.currentSnap;
-                
+        this.updateStatus     = "Update never sent"
+        
     };
 
     static initLiveFeed = initLiveFeed;

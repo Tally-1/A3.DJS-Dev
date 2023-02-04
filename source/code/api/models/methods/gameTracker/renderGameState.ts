@@ -27,17 +27,19 @@ async function renderGameState(
       
       sessionInfo.addStats(snapshot);
 
-      INIparser.readCommands(sessionInfo, dbFolder);
-
       await cnvsX.drawSnapShot(snapshot, sessionInfo, knownMap);
       dataFound = true;
 
       GameTracker.stateToProccess(sessionInfo, snapshot);
 
-      const feedUpdated = discordFeed?.updateTransmission(snapshot);
-      // do something here
-      
+      const updateStatus = await discordFeed?.updateTransmission(snapshot);
+      if(discordFeed && updateStatus){
+        discordFeed.updateStatus = updateStatus;
+      }
       
     }
-    return{dataFound:dataFound, newGameStarted:newGameStarted}
+    return{
+      dataFound:dataFound, 
+      newGameStarted:newGameStarted
+    }
 }

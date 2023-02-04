@@ -4,6 +4,7 @@
 import LiveFeed from "../../../../discord/models/classes/LiveFeed";
 import CanvasX from "../../classes/canvas";
 import GameTracker from "../../classes/gameTracker";
+import INIparser from "../../classes/INIparser";
 import gameStateQuery from "./gameStateQuery";
 
 export default 
@@ -45,9 +46,17 @@ async function trackGame(dbFolder: string) {
       lastCleanup = tempVars.lastCleanup;
       timers = tempVars.timers;
       
+  
       //livefeed needs to be rebuilt in order to clear old data.
-      if(tempVars.newGameStarted){discordFeed = await discordFeed?.newGame();}
+      const currentTime = new Date().getTime();
+      if(tempVars.newGameStarted){discordFeed = await discordFeed?.newGame(true);};
+      if (discordFeed?.updateStatus === "update failed") {
+        console.log("Livefeed update failed, reinitializing the feed");
+        discordFeed = await discordFeed?.newGame(false);
+      }
 
+      INIparser.readCommands(sessionInfo, dbFolder);
+           
 
     } catch (error) {
         if((error as any).code == 'EBUSY')

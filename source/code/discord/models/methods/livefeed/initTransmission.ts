@@ -16,7 +16,8 @@ async function initTransmission(this:LiveFeed){
 
         this.imageUrl = imageUrl;
         const embed = new LiveEmbed(this);//buildLiveEmbed(this);
-        this.liveMsgId = (await this.liveChannel.send({ embeds: [embed] })).id;
+        this.liveMsgId     = (await this.liveChannel.send({ embeds: [embed] })).id;
+        this.updateStatus  = "Feed initialized"
         
     };
 }

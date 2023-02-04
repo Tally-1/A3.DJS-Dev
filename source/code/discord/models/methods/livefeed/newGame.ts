@@ -6,17 +6,20 @@ import INIparser from "../../../../api/models/classes/INIparser";
 import LiveFeed from "../../classes/LiveFeed";
 
 export default
-async function  newGame(this: LiveFeed){
+async function  newGame(this: LiveFeed, sendReport:boolean){
     this.previousImageMsg = undefined;
 
-    
     //@ts-expect-error 
     const sessionData = process.state.session as A3session;
-    console.log("original msgId = "+this.liveMsgId);
+    
     const newFeed = await LiveFeed.initLiveFeed(sessionData);
     await newFeed?.initTransmission();
-    await this.chatChannel.send("```New Game Started!```");
-    await reportVersion(this, sessionData);
+
+    if(sendReport){
+        await this.chatChannel.send("```New Game Started!```");
+        await reportVersion(this, sessionData);
+    };
+
     return newFeed;
 };
 
