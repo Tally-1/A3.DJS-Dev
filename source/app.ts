@@ -5,7 +5,7 @@ import { initApi } from "./code/api/initApi";
 import path from "path";
 import deployBot from "./code/discord/deployBot";
 
-const version = 0.13
+const version = 0.14
 const A3INIfolder = path.join(__dirname,"..", "..", "@INIDBI2 - Official extension", "db");
 const configFile = path.join(__dirname,"..", "..","A3DJS_Config.json");
 
@@ -24,4 +24,4 @@ const bot = deployBot(A3INIfolder, configFile, version);
 //     });
 // });
 
-console.log("<----------A3DJS initialization done----------->");
+console.log("<----------A3DJS "+version+" initialization done----------->");

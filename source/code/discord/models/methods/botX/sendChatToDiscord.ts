@@ -3,7 +3,6 @@
 
 import Discord from "discord.js";
 import BotX from "../../classes/botX";
-import getA3Channels from "./getA3Channels";
 
 export default
 function sendChatToDiscord(chatName:string, text:string, _uid?:string) {
@@ -12,7 +11,11 @@ function sendChatToDiscord(chatName:string, text:string, _uid?:string) {
     const bot = process.bot as BotX;
     if(!bot){return false;};
 
-    
+    console.log("");
+    console.log("----------chat message---------");
+    console.log('Arma->Discord: "'+ chatName +'": ' +text);
+    console.log("-------------------------------");
+
 
     const timeSinceStartup = (new Date().getTime()) - bot.startUpTime;
 

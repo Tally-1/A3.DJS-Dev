@@ -7,11 +7,16 @@ import INIparser from "../../../../api/models/classes/INIparser";
 export default
 function sendChatToArmA(message:Discord.Message, folder:string){
     
-    const isOwner = message.guild?.ownerId == message.author.id;    
+    // const isOwner = message.guild?.ownerId == message.author.id;    
     const sender = message.author.username;
     const text = message.content;
-    let tag = "";
-    if(isOwner){tag = "(Admin)"};
+    // let tag = "";
+    // if(isOwner){tag = "(Admin)"};
+    
+    console.log("");
+    console.log("----------chat message---------");
+    console.log('Discord->Arma: "'+ sender +'": ' +text);
+    console.log("-------------------------------");
 
     const command = "discord-chat";
 
