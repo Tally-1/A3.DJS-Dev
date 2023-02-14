@@ -27,7 +27,7 @@ export default async function loadIcons(Canvas: genericObject) {
     }
   }
 
-  Canvas.icons = icons;
+  Canvas.icons = icons;   
 
   return Canvas;
 }

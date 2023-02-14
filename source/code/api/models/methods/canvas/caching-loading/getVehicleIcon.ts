@@ -13,6 +13,8 @@ function getVehicleIcon(this:CanvasX, vehicle:Vehicle){
     icon = this.icons[vehicle.side][(vehicle.icon.toLowerCase())];
     if(icon){return icon;};
   
+    this.storeUnknownIconName(vehicle.icon.toLowerCase());
+
     icon = this.icons[vehicle.side][(vehicle.type)];
   
     if(!icon){icon = this.icons[vehicle.side]["iconVehicle_ca"];};

@@ -38,7 +38,6 @@ Given that Canvas for node is not being maintained, I had to do some weird
 workArounds in order to get this working when switching to TS
 Be aware that there will be some weird stuff whenever dealing with CanvasJs for nodeJs.
 */
-
 export interface listOfImages {[key: string]: Image};
 export interface parentImageList {[key: string]: listOfImages}
 export default
@@ -74,7 +73,8 @@ class CanvasX {
   loaded:boolean  
 
   constructor(map:string){
-    
+    // const Cnvs = require("@napi-rs/canvas");
+ 
     //|properties retrieved from the canvasJs package\\
     this.clearAllCache = Cnvs.clearAllCache;
     this.Canvas = Cnvs.Canvas;
@@ -141,5 +141,22 @@ class CanvasX {
     
   static removeCachedFiles = removeCachedFiles;
   static storeFrame = storeFrame;
+
+
+  storeUnknownIconName(iconName:string){
+    const root            = path.join(__dirname, "..", "..", "..", "..", "..");
+    const unknownJson     = path.join(root, "icons", "unknown.json");
+    const unknownIcons    = require(unknownJson) as string[];
+    const iconRegistered  = unknownIcons.includes(iconName);
+
+    if(iconRegistered){return};
+
+    unknownIcons.push(iconName);
+    fs.writeFileSync(unknownJson, JSON.stringify(unknownIcons));
+
+    return;
+  };  
+
+
 };
 

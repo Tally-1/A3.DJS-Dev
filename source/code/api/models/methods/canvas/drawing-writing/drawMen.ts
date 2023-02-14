@@ -24,7 +24,10 @@ export default function drawMen(
     if (!validSide) {side = "CIV";};
     
     let icon = this.icons[side][unit.icon];
-    if (!icon) {icon = this.icons[side]["iconMan_ca"];};
+    if (!icon) {
+      this.storeUnknownIconName(unit.icon);
+      icon = this.icons[side]["iconMan_ca"];
+    };
 
     if (!inVehicle) {
       this.drawObjectMarker(unit, pencil, icon, 40, backGroundData, snapshot);
