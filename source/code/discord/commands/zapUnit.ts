@@ -7,6 +7,7 @@ import BotX from "../models/classes/botX";
 
 const command = new SlashCommandBuilder()
 .setName('zap-unit')
+.setDefaultMemberPermissions(0)
 .setDescription('Send a gift from the sky to a soldier of your choice...')
 .addBooleanOption(option=>option
     .setName("players-only")

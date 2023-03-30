@@ -27,7 +27,7 @@ export default function writeGameInfo(
 
   //Show data (bottom left)
   const sysData:string[] = [
-    "Server-FPS:  " + snapshot.serverFps/1000,
+    "FPS:  " + snapshot.serverFps/1000,
     "A3 write time: " + snapshot.writeTime + " ms",
     new Date().getTime().toString()
   ];
@@ -56,7 +56,7 @@ export default function writeGameInfo(
   if (unitsNotFound) {
     pencil.font = "800 " + 30 + "px Arial";
     write(pencil, 
-      "Could not find target-units", 
+      "Could not find "+sessionInfo.focusTypeText(), 
       [300, 990], 
       "#ff0000")
   }

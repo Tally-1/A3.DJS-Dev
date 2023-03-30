@@ -1,7 +1,12 @@
 // Copyright (c) 2023 Leo Aleksander Hartgen.
 // BSD 3-Clause License
 
-import { AutocompleteInteraction, ChatInputCommandInteraction, SlashCommandBuilder, SlashCommandStringOption, SlashCommandSubcommandBuilder } from "discord.js";
+import { 
+    AutocompleteInteraction, 
+    ChatInputCommandInteraction, 
+    SlashCommandBuilder 
+} from "discord.js";
+
 import INIparser from "../../api/models/classes/INIparser";
 import BotX from "../models/classes/botX";
 

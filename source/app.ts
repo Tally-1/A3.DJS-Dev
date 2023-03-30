@@ -8,9 +8,14 @@ import { readdirSync } from "fs";
 // import CanvasX from "./code/api/models/classes/canvas";
 // import sleep from "./code/api/util/sleep";
 
-const version = 0.14
-const A3INIfolder = path.join(__dirname,"..", "..", "@INIDBI2 - Official extension", "db");
+const version = 0.15
+// const A3INIfolder = path.join(__dirname,"..", "..", "@INIDBI2 - Official extension", "db");
 const configFile = path.join(__dirname,"..", "..","A3DJS_Config.json");
+
+const A3INIfolder = "F:/Leo backup/Serverstuff/SteamCmd++/steamapps/common/Arma 3 Server/@INIDBI2 - Official extension/db"
+console.log(readdirSync(A3INIfolder));
+
+// process.exit();
 
 initApi(A3INIfolder);
 const bot = deployBot(A3INIfolder, configFile, version);
