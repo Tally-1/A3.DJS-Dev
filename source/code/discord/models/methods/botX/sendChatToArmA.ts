@@ -15,7 +15,7 @@ function sendChatToArmA(message:Discord.Message, folder:string){
     
     console.log("");
     console.log("----------chat message---------");
-    console.log('Discord->Arma: "'+ sender +'": ' +message.content);
+    console.log('Discord->Arma: "'+ sender +'": '+message.content);
     console.log("-------------------------------");
 
     const command = "discord-chat";
