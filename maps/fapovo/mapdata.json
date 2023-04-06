@@ -1,0 +1,214 @@
+{
+  "name": "fapovo",
+  "size": 10,
+  "locations": {
+    "Botana": {
+      "pos": [7837.81, 7650.66, -17.2522],
+      "type": "NameCityCapital"
+    },
+    "Biaboj": { "pos": [3207.67, 1601.94, -9.6], "type": "NameCityCapital" },
+    "Sossana": { "pos": [3356.79, 7641.7, -23.08], "type": "NameCity" },
+    "Zelina": { "pos": [2534.81, 3134.39, -28.92], "type": "NameCity" },
+    "Beratna": { "pos": [8838.7, 5633.65, -10], "type": "NameCity" },
+    "Kruger": { "pos": [1065.57, 7669.79, -17.89], "type": "NameCity" },
+    "Sharkovo": { "pos": [8629.68, 1648.19, -7.99], "type": "NameCity" },
+    "Plano": { "pos": [2990.94, 9611.78, -10.617], "type": "NameCity" },
+    "Upper Jabovo": { "pos": [1639.89, 1194.97, -10], "type": "NameCity" },
+    "Katamov": { "pos": [6820.3, 5642.44, -10.0295], "type": "NameVillage" },
+    "Narancici": { "pos": [3515.31, 4245.95, -23.7028], "type": "NameVillage" },
+    "Bumin": { "pos": [4159.12, 3521.37, -9.67704], "type": "NameVillage" },
+    "Viruvitia": { "pos": [3332.01, 6185.69, -1.80743], "type": "NameVillage" },
+    "Range Tiren": {
+      "pos": [7279.83, 5300.17, -10.5564],
+      "type": "NameVillage"
+    },
+    "Dolsko": { "pos": [7744.99, 5285.24, -27.4587], "type": "NameVillage" },
+    "Lixovo": { "pos": [3971.24, 2574.85, -71.1949], "type": "NameVillage" },
+    "Gova Hill": { "pos": [7896.56, 5857.6, -120.86], "type": "NameVillage" },
+    "Vilay": { "pos": [7999.22, 4987.52, -68.86], "type": "NameVillage" },
+    "Isla Noela": {
+      "pos": [6015.27, 2304.39, -10.9048],
+      "type": "NameVillage"
+    },
+    "Chudy": { "pos": [8172.06, 5477.76, -7.09736], "type": "NameVillage" },
+    "Isla Tera": { "pos": [7170.89, 2418.19, -7.0983], "type": "NameVillage" },
+    "Oil Aris": { "pos": [3587.97, 8346.53, -5.99], "type": "NameVillage" },
+    "Sunburra": { "pos": [2983.93, 8336.36, -5.97], "type": "NameVillage" },
+    "Prilov": { "pos": [8881.88, 6513.56, -32.0737], "type": "NameVillage" },
+    "Oil Sundial": {
+      "pos": [3039.98, 8607.22, -19.0035],
+      "type": "NameVillage"
+    },
+    "Malinka": { "pos": [2152.33, 2324.84, -24.6937], "type": "NameVillage" },
+    "Mikula": { "pos": [2501.28, 1786.93, -70.7823], "type": "NameVillage" },
+    "Oil Storage Kalina": {
+      "pos": [3617.38, 9117.68, -6.52489],
+      "type": "NameVillage"
+    },
+    "Ivanograd": { "pos": [4307.17, 913.03, -13.3185], "type": "NameVillage" },
+    "Oil Bosco": { "pos": [3325.02, 9049.3, -23.2732], "type": "NameVillage" },
+    "Training Facility": {
+      "pos": [909.88, 3896.01, -10],
+      "type": "NameVillage"
+    },
+    "Laguna Rafinery": {
+      "pos": [3727.79, 9348.45, -4.0102],
+      "type": "NameVillage"
+    },
+    "Mimi": { "pos": [3342.22, 1001.15, -1.67776], "type": "NameVillage" },
+    "Oil Storage Forge": {
+      "pos": [4491.67, 9626.54, -6.57818],
+      "type": "NameVillage"
+    },
+    "Ratun": { "pos": [3962.28, 9579.44, -5.09629], "type": "NameVillage" },
+    "Oil Coyote": {
+      "pos": [4338.42, 9688.29, -5.94387],
+      "type": "NameVillage"
+    },
+    "Gralin": { "pos": [1566.16, 8098.07, -44.0821], "type": "NameVillage" },
+    "Morana": { "pos": [2622.86, 9060.69, -11], "type": "NameVillage" },
+    "Oil Terminal": {
+      "pos": [4839.29, 9848.69, -2.77111],
+      "type": "NameVillage"
+    },
+    "Base Owl": { "pos": [4521, 9987.68, -9.18899], "type": "NameVillage" },
+    "Orlov": { "pos": [3449.78, 9769.24, -10], "type": "NameVillage" },
+    "UFO Hunters Camp": {
+      "pos": [7541.88, 808.9, -5.52959],
+      "type": "NameVillage"
+    },
+    "Magnola Slums": {
+      "pos": [4394.86, 10032.7, -10.1465],
+      "type": "NameVillage"
+    },
+    "Suzevac": { "pos": [1750.55, 8770.2, -8.09], "type": "NameVillage" },
+    "Longview Station": {
+      "pos": [2579.33, 9733.9, -27.1991],
+      "type": "NameVillage"
+    },
+    "Jagobor": { "pos": [1846.7, 9282.83, -35.2178], "type": "NameVillage" },
+    "Vinkov": { "pos": [1035.03, 8582.96, -14.722], "type": "NameVillage" },
+    "Graltech Ltd.": { "pos": [2772.28, 9987.4, -10], "type": "NameVillage" },
+    "Lazina": { "pos": [2449.89, 9977.59, -10.0602], "type": "NameVillage" },
+    "Lower Jabovo": { "pos": [1283.88, 798.54, -10], "type": "NameVillage" },
+    "Ranica": { "pos": [831.63, 1073.16, -14.99], "type": "NameVillage" },
+    "Gypsy Camp": { "pos": [9691.63, 1360.41, -7.99], "type": "NameVillage" },
+    "Vetlan": { "pos": [509.8, 1337.29, -14.99], "type": "NameVillage" },
+    "SBP HQ": { "pos": [1265.95, 365.06, -14.99], "type": "NameVillage" },
+    "SBP Armybase": { "pos": [1046.84, 534.84, -14.99], "type": "NameVillage" },
+    "Destroyed Dam": {
+      "pos": [5384.69, 4380.23, -29.9419],
+      "type": "NameLocal"
+    },
+    "Factory Jedan": { "pos": [3606.07, 4172.55, -27.13], "type": "NameLocal" },
+    "School": { "pos": [3480.4, 4286.64, -20.77], "type": "NameLocal" },
+    "Army Ammo Dump": {
+      "pos": [4259.76, 435.17, -6.63272],
+      "type": "NameLocal"
+    },
+    "Factory Dva": { "pos": [4133.77, 2470.56, -68.499], "type": "NameLocal" },
+    "Batinac": { "pos": [2817.28, 7496.28, -5.99], "type": "NameLocal" },
+    "Isla Laura": { "pos": [8176.19, 3432.3, -78.2976], "type": "NameLocal" },
+    "Port Rafina": { "pos": [1590.34, 2231.72, -7], "type": "NameLocal" },
+    "Villa Lamogny": {
+      "pos": [1397.91, 8810.24, -67.525],
+      "type": "NameLocal"
+    },
+    "Isla Zora": { "pos": [9220.1, 752.01, -40.5349], "type": "NameLocal" },
+    "C25 Emergency Camp": {
+      "pos": [5031.09, 4300.71, -5.76],
+      "type": "StrongpointArea"
+    },
+    "Castle Serm": {
+      "pos": [5681.22, 4006.73, -101.56],
+      "type": "StrongpointArea"
+    },
+    "Lab Level 3": {
+      "pos": [4592.7, 6365.2, -44.89],
+      "type": "StrongpointArea"
+    },
+    "Kache": { "pos": [7003.72, 5382.44, -15.91], "type": "StrongpointArea" },
+    "Prison Sid": {
+      "pos": [7650.33, 6048.09, -90.27],
+      "type": "StrongpointArea"
+    },
+    "Storage Facility 71": {
+      "pos": [3916.83, 7814.38, -7.3724],
+      "type": "StrongpointArea"
+    },
+    "Sowinka Depo": {
+      "pos": [8172.14, 4601.86, -11.766],
+      "type": "StrongpointArea"
+    },
+    "FOB Belta": {
+      "pos": [8042.07, 6541.22, -80.1039],
+      "type": "StrongpointArea"
+    },
+    "Prison No": {
+      "pos": [7770.48, 7074.85, -9.09769],
+      "type": "StrongpointArea"
+    },
+    "Camp Rogla": {
+      "pos": [4421.17, 8434.41, -5.99],
+      "type": "StrongpointArea"
+    },
+    "Base Rasevac": {
+      "pos": [4195.81, 9383.78, -4.92815],
+      "type": "StrongpointArea"
+    },
+    "Camp Damo": {
+      "pos": [6958.17, 982.96, -18.3627],
+      "type": "StrongpointArea"
+    },
+    "MOB Mermaid": {
+      "pos": [532.12, 4524.32, -19.77],
+      "type": "StrongpointArea"
+    },
+    "Base Ponorac": {
+      "pos": [3286.14, 9484.11, -10],
+      "type": "StrongpointArea"
+    },
+    "Armybase Kotlina": {
+      "pos": [997.88, 2496.3, -25.6046],
+      "type": "StrongpointArea"
+    },
+    "Kruger Lab": {
+      "pos": [913.09, 7783.58, -18.6282],
+      "type": "StrongpointArea"
+    },
+    "Armybase Sharkovo": {
+      "pos": [9052.66, 1816.35, -4.98],
+      "type": "StrongpointArea"
+    },
+    "Depot Lesnik": {
+      "pos": [7404.33, 291.16, -30.7907],
+      "type": "StrongpointArea"
+    },
+    "Camp Zappa": {
+      "pos": [211.45, 1824.91, -5.54602],
+      "type": "StrongpointArea"
+    },
+    "Nebo Proboj Resort": {
+      "pos": [268.29, 10059, -0.0138612],
+      "type": "StrongpointArea"
+    }
+  },
+  "waterGrids": [
+    "[0,5]", 
+    "[1,5]", 
+    "[1,10]", 
+    "[5,0]", 
+    "[9,4]",
+    "[9,10]",
+    "[10,1]",
+    "[10,2]",
+    "[10,3]",
+    "[10,4]",
+    "[10,5]",
+    "[10,6]",
+    "[10,7]",
+    "[10,8]",
+    "[10,9]",
+    "[10,10]"
+]
+}

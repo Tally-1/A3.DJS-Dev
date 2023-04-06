@@ -9,7 +9,8 @@ import parseINIString from "./parseINIString";
 export default 
 function iniFileToObject(folder:string, fileName:string):object{ 
     const file = path.join(folder, fileName+".ini");
-    const string = fs.readFileSync(file, 'utf8');
+    const string = fs.readFileSync(file, 'utf8')
+                     .replace('Init=""---""', '');
     const parsedString = parseINIString(string);
     const data = parsedString[fileName] as genericObject;
     
