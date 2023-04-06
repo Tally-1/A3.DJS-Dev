@@ -8,7 +8,7 @@ import { readdirSync } from "fs";
 // import CanvasX from "./code/api/models/classes/canvas";
 // import sleep from "./code/api/util/sleep";
 
-const version = 0.15
+const version = 0.17
 const A3INIfolder = path.join(__dirname,"..", "..", "@INIDBI2 - Official extension", "db");
 const configFile = path.join(__dirname,"..", "..","A3DJS_Config.json");
 
