@@ -20,7 +20,6 @@ console.log(readdirSync(A3INIfolder));
 initApi(A3INIfolder);
 const bot = deployBot(A3INIfolder, configFile, version);
 
-
 // import child_process from "child_process";
 // process.on("exit", function () {
 // require("child_process")
